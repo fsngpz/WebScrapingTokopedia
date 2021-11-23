@@ -8,8 +8,8 @@ By using Selenium, author can get the children of unclass div or span.
 
 ### Requirements
 * Python 3
-  - BeautifulSoup
-  - Selenium
+  - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+  - [Selenium](https://en.wikipedia.org/wiki/Selenium_(software))
 * Google Chrome
 * Chrome Driver
 
