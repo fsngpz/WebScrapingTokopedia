@@ -3,7 +3,7 @@
 <h2> Extracting Top 100 Handphone Products from Tokopedia</h2>
 
 <h3>Overview</h3>
-Scraping an e-Commerce website named Tokopedia using BeautifulSoup and Selenium to extract the information of their products.
+Scraping an e-Commerce website named Tokopedia using BeautifulSoup and Selenium to extract the information of their products into CSV file.
 By using Selenium, author can get the children of unclass div or span.
 
 ### Requirements
