@@ -20,7 +20,7 @@ headers ={
 }
 
 
-driver = webdriver.Chrome(r'C:\Users\User\PycharmProjects\webScrape\chromedriver.exe')
+driver = webdriver.Chrome(r'your chrome driver full path')
 count = 0
 for page in range(1,21):
     # print("Scraping link of the products in page: " + str(page))
