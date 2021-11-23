@@ -23,7 +23,6 @@ headers ={
 driver = webdriver.Chrome(r'your chrome driver full path')
 count = 0
 for page in range(1,21):
-    # print("Scraping link of the products in page: " + str(page))
     req = requests.get(url+str(page), headers=headers)
     soup = BeautifulSoup(req.text, 'html.parser')
     product = soup.findAll('div', class_='css-bk6tzz e1nlzfl3')
