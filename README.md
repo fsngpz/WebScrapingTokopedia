@@ -27,4 +27,7 @@ By using Selenium, author can get the children of unclass div or span.
 The chromedriver in this repository is the chromedriver with version 96. Make sure you know the version of your google chrome, then download the chromedriver in [here](https://chromedriver.chromium.org/downloads)
 and save it to your cloned repository.
 
+You can modify the ``` time.sleep(n) ``` with the stop time that you like, the longer time that you input, the more successful chance that you get to scrape the information
+of the product.
+
 ***Author: Ferdinand Sangap***
