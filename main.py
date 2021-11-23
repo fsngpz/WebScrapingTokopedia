@@ -54,7 +54,7 @@ for page in range(1,21):
             dictStar[count] = rating
             merchant = soup.find('a', class_='css-1n8curp').find('h2').text
             dictMerchant[count] = merchant
-            print(f"Success to scrap product #{count}")
+            print(f"Success to scrape product #{count}")
 
 driver.quit()
 
